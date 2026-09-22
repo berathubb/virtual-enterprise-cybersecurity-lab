@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Logs
+*.log
+cron.log
+
+# Rapor çıktıları (her gün değişir - sadece script'i sakla)
+phase-04-automation/reports/daily_*.csv
+phase-04-automation/reports/daily_*.json
+phase-04-automation/reports/daily_*.html
+phase-04-automation/reports/report_*.csv
+phase-04-automation/reports/report_*.json
+phase-04-automation/reports/report_*.html
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Geçici dosyalar
+*.tmp
+*.bak
+
+# Hassas veriler (ASLA push etme!)
+*.key
+*.pem
+*.crt
+.env
+secrets.yml
+credentials.*
