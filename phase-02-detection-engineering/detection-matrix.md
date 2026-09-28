@@ -1,4 +1,15 @@
-# Detection Matrix  Virtual Enterprise Cybersecurity Lab
+
+
+
+
+| 9 | Sysmon: Discovery commands (whoami/net/systeminfo) | 100301 | 8 | Sysmon Event 1 | T1033, T1087, T1016 |  |
+| 10 | Sysmon: PowerShell Encoded Command | 100302 | 12 | Sysmon Event 1 | T1059.001, T1027 |  |
+| 11 | Sysmon: Suspicious PowerShell (IEX/Download/Base64) | 100304 | 10 | Sysmon Event 1 | T1059.001, T1105 |  || **T1033** | System Owner/User Discovery |  (100301) |
+| **T1087** | Account Discovery |  (100301) |
+| **T1016** | System Network Configuration Discovery |  (100301) |
+| **T1059.001** | PowerShell |  (91837, 100302, 100304) |
+| **T1027** | Obfuscated Files or Information |  (100302) |
+| **T1105** | Ingress Tool Transfer |  (100304) |# Detection Matrix  Virtual Enterprise Cybersecurity Lab
 
 **Proje:** Virtual Enterprise Cybersecurity & SIEM Lab
 **Faz:** Phase 2  SOC & Detection Engineering

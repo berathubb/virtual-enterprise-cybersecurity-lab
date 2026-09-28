@@ -1,4 +1,12 @@
-#  Virtual Enterprise Cybersecurity & SIEM Lab
+### Phase 4  Infrastructure Automation
+- Wazuh API keşfi (JWT authentication)
+- Python client (REST API + Indexer API)
+- Çok formatlı rapor üretimi (JSON, CSV, HTML)
+- Cron ile otomatik günlük rapor (her sabah 08:00 UTC)
+- Email raporu (SMTP/Gmail)
+- Wazuh Dashboard customization
+- **Sysmon v15.22 kurulumu + SwiftOnSecurity config**
+- **Custom Sysmon detection rules** (5 kural)#  Virtual Enterprise Cybersecurity & SIEM Lab
 
 Sanal bir kurumsal ağ altyapısı üzerinde geliştirilen, uçtan uca **SIEM, Detection Engineering ve Incident Response** laboratuvarı.
 
